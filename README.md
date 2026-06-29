@@ -5,44 +5,14 @@
 
 Custom skills collection for Z.ai agent.
 
-
-## Skills
-
-| Skill | Version | Purpose |
-|-------|---------|---------|
-| `ui-kit-extract` | 2.0.0 | Extract UI components from React/Next.js projects into @stsgs/ui |
-
-
-## Target Library
-
-**@stsgs/ui** -- 155+ component npm package, shadcn/ui compatible.
-Repository: https://github.com/stsgs1980/UI-Kit
-
 ## Features
 
-- Feature 1 - description
-- Feature 2 - description
+- ui-kit-extract skill (v2.0.0) for extracting UI components from React/Next.js projects into @stsgs/ui
+- Targets @stsgs/ui, a 155+ component npm package that is shadcn/ui compatible
 
 ## Tech Stack
 
-- **Framework** - Next.js
-- **Libraries** - shadcn/ui
-- **Tools** - React
-
-## Installation
-
-```bash
-git clone https://github.com/stsgs1980/zai-custom-skills.git
-cp -r zai-custom-skills/skills/* /home/z/my-project/skills/
-```
-
-
-## License
-
-MIT
-
-**Document complies with No-Unicode Policy v2.1**
-
+- **Target** - @stsgs/ui
 
 ## Getting Started
 
@@ -54,15 +24,16 @@ MIT
 
 ```bash
 git clone https://github.com/stsgs1980/zai-custom-skills.git
-cd zai-custom-skills
-bun install
+cp -r zai-custom-skills/skills/* /home/z/my-project/skills/
 ```
 
 ### Run
 
-```bash
-bun run dev
-```
+Skills are copied to your project and available for use by the Z.ai agent.
+
+## License
+
+MIT
 
 ---
-Built with: Next.js + React
+Built with: TypeScript
